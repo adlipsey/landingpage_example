@@ -1,5 +1,5 @@
 .jumbotron {
-  background: #5F9EA0;
+  background: #98e698;
    margin: 10px;
    padding: 0px 20px;
 }
@@ -7,14 +7,14 @@
 
 h1 {
 	font-family: 'Droid Serif', serif;
-	color: #F5F5DC;
+	color: black;
 	text-align: center;
 }
 
 
 h2 {
 	font-family: 'Droid Serif', serif;
-	color: #5F9EA0;
+	color: black;
 	font-style: bold;
 
 }
@@ -49,4 +49,25 @@ body {
 	padding: 10px;
 	border: 2px solid black;
 	box-shadow: 10px 10px 5px grey;
+}
+
+/*footer*/
+.navBarBackground{
+  background-image: url("./images/chineseSoup.png")
+}
+
+#sticky {
+  width:100%;
+  height:30px;
+  padding-top:10px;
+  background-image: url("./images/chineseSoup.png");
+  color:white;
+  font-weight:bold;
+  font-size:12px;
+  text-align:center;
+  position:fixed;    /*Here's what sticks it*/
+  bottom:0px;          /*to the bottom of the window*/
+  left:0;
+  /*margin-bottom: 20px;*/
+            /*and to the left of the window.*/
 }
