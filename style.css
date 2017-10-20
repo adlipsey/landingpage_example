@@ -1,24 +1,27 @@
 .jumbotron {
-
-    background: #F5F5DC;
-   
+    background: #5F9EA0;
+   margin: 10px;
+   padding: 20px;
 }
 
 
 h1 {
 	font-family: 'Droid Serif', serif;
-
+	color: #F5F5DC;
+	text-align: center;
 }
 
 
 h2 {
 	font-family: 'Droid Serif', serif;
-
+	color: #5F9EA0;
+	font-style: bold;
 
 }
 
 p {
 	font-family: 'PT Sans', sans-serif;
+	margin: 12px;
 
 }
 
