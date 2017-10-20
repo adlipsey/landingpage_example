@@ -27,11 +27,13 @@ h3{
   width: 30%;
   height: 30%;
   filter: grayscale(100%);
+  margin: 0 auto;
+  display: block;
 }
 
 p {
 	font-family: 'PT Sans', sans-serif;
-	margin: 12px;
+	margin: 5px;
 
 }
 
@@ -48,6 +50,8 @@ body {
 .mainPhoto{
   height: 90%;
   width: 90%;
+  margin: 0 auto;
+  display: block;
 }
 
 .mainContent{
