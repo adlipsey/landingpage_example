@@ -1,7 +1,7 @@
 .jumbotron {
   background: #5F9EA0;
    margin: 10px;
-   padding: 20px;
+   padding: 0px 20px;
 }
 
 
@@ -25,10 +25,23 @@ p {
 
 }
 
+p2{
+  line-height: 2em;
+}
+
 body {
 	background-color: #F5F5DC;
 	font-family: 'PT Sans', sans-serif;
 
+}
+
+.mainPhoto{
+  height: 90%;
+  width: 90%;
+}
+
+.mainContent{
+  margin-bottom: 50px;
 }
 
 #mc_embed_signup {
