@@ -1,7 +1,7 @@
 .jumbotron {
-  background: #98e698;
+  background: rgba(166,189,77,.7);
    margin: 10px;
-   padding: 0px 20px;
+   padding: 2em;
 }
 
 
@@ -33,16 +33,17 @@ h3{
 
 p {
 	font-family: 'PT Sans', sans-serif;
-	margin: 5px;
+	margin: 1em;
 
 }
 
-p2{
+.p2 {
+  font-size: 1.2em;
   line-height: 2em;
 }
 
 body {
-	background-color: #F5F5DC;
+	background: url("./images/sayagata-400px.png") #F5F5DC;
 	font-family: 'PT Sans', sans-serif;
 
 }
@@ -52,11 +53,15 @@ body {
   width: 90%;
   margin: 0 auto;
   display: block;
+  border: 5px solid #ffb6c1 ;
+  border-style: outset;
 }
 
 .btn-primary{
   background-color: #ffb6c1;
   border-color: #ffb6c1;
+  display: block;
+  margin: 0 auto;
 }
 
 .mainContent{
